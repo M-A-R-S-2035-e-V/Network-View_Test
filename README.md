@@ -25,7 +25,7 @@ Beziehungen sind gerichtet:
 
 ## Beispielvisualisierung
 
-![Netzwerk-Visualisierung](images/network-view.png)
+![Netzwerk-Visualisierung](network-view.png)
 
 ## Datei
 
