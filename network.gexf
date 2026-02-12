@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+  <graph mode="static" defaultedgetype="directed">
+    
+    <attributes class="node">
+      <attribute id="0" title="type" type="string"/>
+    </attributes>
+
+    <nodes>
+      <node id="p1" label="Person A">
+        <attvalues>
+          <attvalue for="0" value="person"/>
+        </attvalues>
+      </node>
+      <node id="p2" label="Person B">
+        <attvalues>
+          <attvalue for="0" value="person"/>
+        </attvalues>
+      </node>
+      <node id="p3" label="Person C">
+        <attvalues>
+          <attvalue for="0" value="person"/>
+        </attvalues>
+      </node>
+
+      <node id="g1" label="Gruppe X">
+        <attvalues>
+          <attvalue for="0" value="group"/>
+        </attvalues>
+      </node>
+      <node id="g2" label="Gruppe Y">
+        <attvalues>
+          <attvalue for="0" value="group"/>
+        </attvalues>
+      </node>
+    </nodes>
+
+    <edges>
+      <edge id="0" source="p1" target="g1" label="MITGLIED_IN"/>
+      <edge id="1" source="p1" target="g2" label="MITGLIED_IN"/>
+      <edge id="2" source="p2" target="g1" label="LEITET"/>
+      <edge id="3" source="p3" target="g2" label="MITGLIED_IN"/>
+    </edges>
+
+  </graph>
+</gexf>
